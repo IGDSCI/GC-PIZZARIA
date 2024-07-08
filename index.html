@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="img/logoJanela.png">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>GC Pizzaria</title>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div class="div-header">
+                <div class="header-logo">
+                    <img src="img/logoPizza.png" class="img-logo">
+                    <h1>GC Pizzaria</h1>
+                </div>
+                <div class="header-sections" id="header-sections">
+                    <a href="#nav-home" onclick="clickSection()"><h3 class="header-text">Home</h3></a>
+                    <a href="#nav-about" onclick="clickSection()"><h3 class="header-text">Sobre nós</h3></a>
+                    <a href="#nav-menu" onclick="clickSection()"><h3 class="header-text">Cardápio</h3></a>
+                    <a href="#nav-contact" onclick="clickSection()"><h3 class="header-text">Contatos</h3></a>
+                    <div class="div-contacts">
+                        <h3 class="bi bi-instagram" style="cursor: pointer;"></h3>
+                        <h3 class="bi bi-whatsapp" style="cursor: pointer;"></h3>
+                        <h3 class="bi bi-facebook" style="cursor: pointer;"></h3>
+                    </div>
+                </div>
+                <div class="interactive-menu">
+                    <h3 class="bi bi-list" id="menu-icon" style="font-size: 28px;" onclick="openMenu()"></h3>
+                    <h3 class="bi bi-x-lg off" id="close-icon" style="font-size: 28px;" onclick="openMenu()"></h3>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="div-description" id="nav-home">
+            <h1 class="description-text">DEIXE SEU DIA MAIS SABOROSO!!!</h1>
+            <h3 class="second-description-text">AS PIZZAS MAIS RECHEADAS DA REGIÃO</h3>
+            <h1 class="order">PEÇA AGORA!</h1>
+        </div>
+        <div class="about" id="nav-about">
+            <div class="about-text">
+                <h1>SOBRE NÓS</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam possimus recusandae ipsum magni rerum, velit fugiat quo, dolorum consequatur placeat dolor tempora Optio hic nisi veritatis maxime sint fugiat vitae
+                Quis adipisci fugiat repellat, consequatur asperiores provident ipsum nesciunt nobis dolor aspernatur hic inventore quos enim modi eveniet id magni excepturi neque. 
+            </div>
+            <img src="img/sobre.jpg" class="about-img">
+        </div>
+        <div class="div-menu" id="nav-menu">
+            <h1 class="menu-title">CARDÁPIO</h1>
+            <div class="container-pizza">
+                <div class="div-pizzas">
+                    <img src="img/PizzaQueijo.png" class="img-pizza">
+                    <h2 class="title-pizza">4 QUEIJOS</h2>
+                    <ul class="ul-price">
+                        <li class="li-price">
+                            <h4>6 FATIAS</h4>
+                            <h4>R$35,00</h4>
+                        </li>
+                        <li class="li-price">
+                            <h4>8 FATIAS</h4>
+                            <h4>R$45,00</h4>
+                        </li>
+                        <li class="li-price">
+                            <h4>12 FATIAS</h4>
+                            <h4>R$55,00</h4>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="div-pizzas">
+                    <img src="img/pizzaFrango.jpg" class="img-pizza">
+                    <h2 class="title-pizza">FRANGO CATUPIRY</h2>
+                    <ul class="ul-price">
+                        <li class="li-price">
+                            <h4>6 FATIAS</h4>
+                            <h4>R$35,00</h4>
+                        </li>
+                        <li class="li-price">
+                            <h4>8 FATIAS</h4>
+                            <h4>R$45,00</h4>
+                        </li>
+                        <li class="li-price">
+                            <h4>12 FATIAS</h4>
+                            <h4>R$55,00</h4>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="div-pizzas">
+                    <img src="img/pizzaMarguerita.jpg" class="img-pizza">
+                    <h2 class="title-pizza">MARGUERITA</h2>
+                    <ul class="ul-price">
+                        <li class="li-price">
+                            <h4>6 FATIAS</h4>
+                            <h4>R$35,00</h4>
+                        </li>
+                        <li class="li-price">
+                            <h4>8 FATIAS</h4>
+                            <h4>R$45,00</h4>
+                        </li>
+                        <li class="li-price">
+                            <h4>12 FATIAS</h4>
+                            <h4>R$55,00</h4>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="div-pizzas">
+                    <img src="img/pizzaBonissima.jpg" class="img-pizza">
+                    <h2 class="title-pizza">BONÍSSIMA</h2>
+                    <ul class="ul-price">
+                        <li class="li-price">
+                            <h4>6 FATIAS</h4>
+                            <h4>R$35,00</h4>
+                        </li>
+                        <li class="li-price">
+                            <h4>8 FATIAS</h4>
+                            <h4>R$45,00</h4>
+                        </li>
+                        <li class="li-price">
+                            <h4>12 FATIAS</h4>
+                            <h4>R$55,00</h4>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="div-pizzas">
+                    <img src="img/pizzaChocolate.jpg" class="img-pizza">
+                    <h2 class="title-pizza">CHOCOLATE</h2>
+                    <ul class="ul-price">
+                        <li class="li-price">
+                            <h4>6 FATIAS</h4>
+                            <h4>R$35,00</h4>
+                        </li>
+                        <li class="li-price">
+                            <h4>8 FATIAS</h4>
+                            <h4>R$45,00</h4>
+                        </li>
+                        <li class="li-price">
+                            <h4>12 FATIAS</h4>
+                            <h4>R$55,00</h4>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="div-pizzas">
+                    <img src="img/pizzaBanana.jpg" class="img-pizza">
+                    <h2 class="title-pizza">BANANA COM CANELA</h2>
+                    <ul class="ul-price">
+                        <li class="li-price">
+                            <h4>6 FATIAS</h4>
+                            <h4>R$35,00</h4>
+                        </li>
+                        <li class="li-price">
+                            <h4>8 FATIAS</h4>
+                            <h4>R$45,00</h4>
+                        </li>
+                        <li class="li-price">
+                            <h4>12 FATIAS</h4>
+                            <h4>R$55,00</h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="div-footer" id="nav-contact">
+            <h1>CONTATOS</h1>
+            <ul class="ul-footer">
+                <li class="li-footer">
+                    <h3 class="bi bi-telephone"></h3>
+                    <h4 class="footer-text">(49) 99968-1009</h4>
+                </li>
+                <li class="li-footer-click">
+                    <h3 class="bi bi-facebook"></h3>
+                    <h4 class="footer-text">Sua loja</h4>
+                </li>
+                <li class="li-footer-click">
+                    <h3 class="bi bi-instagram"></h3>
+                    <h4 class="footer-text">@gustavo_capeletti</h4>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>

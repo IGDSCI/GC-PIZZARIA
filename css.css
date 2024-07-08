@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+.img-logo{
+    width: 70px;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    background-color: #1E1E1E;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+}
+
+.header-text:hover{
+    cursor: pointer;
+    color: rgb(207, 169, 98);
+}
+
+.container-header{
+    display: flex;
+    justify-content: center;
+}
+
+.div-header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    color: white;
+    width: 1200px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.header-sections{
+    display: flex;
+    gap: 2rem;
+}
+
+.background-img{
+    width: 100%;
+}
+
+.div-description {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.description-text{
+    color: rgb(207, 169, 98);
+    background-color: transparent;
+}
+
+.second-description-text{
+    color: rgb(177, 177, 177);
+    background-color: transparent;
+}
+
+.order{
+    background-color: rgb(207, 169, 98);
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.order:hover{
+    background-color: rgb(223, 195, 143);
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 4rem;
+    background-color: #1E1E1E;
+}
+
+.about-img{
+    width: 30%;
+    min-width: 300px;
+}
+
+.about-text{
+    width: 400px;
+    margin-right: 2rem;
+}
+
+.div-menu{
+    height: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(img/menu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-pizza {
+    width: 320px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.div-pizzas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DDDDDD;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 320px;
+}
+
+.menu-title{
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    background-color: rgb(207, 169, 98);
+}
+
+.title-pizza{
+    font-size: 20px;
+    margin-top: 0.5rem;
+}
+
+.ul-price{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.li-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-pizza{
+    display: grid;
+    grid-template-columns: 320px 320px;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.div-footer{
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 3rem;
+}
+
+.ul-footer{
+    display: flex;
+    gap: 2rem;
+    margin-top: 0.5rem;
+}
+
+.li-footer{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.li-footer-click{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.div-contacts{
+    display: flex;
+    gap: 1rem;
+}
+
+#menu-icon{
+    display: none;
+}
+
+#close-icon{
+    cursor: pointer;
+}
+
+.footer-text{
+    font-weight: 500;
+}
+
+.off{
+    display: none;
+}
+
+.interactive-menu{
+    display: none;
+}
+
+
+@media (max-width: 850px){
+    .container-pizza{
+        display: grid;
+        grid-template-columns: 320px;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .div-menu{
+        height: 2400px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+        background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(img/menu.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .interactive-menu{
+        display: block;
+    }
+
+    .about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 2rem;
+        color: white;
+        padding-bottom: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background-color: #1E1E1E;
+        gap: 1rem;
+    }
+
+    .about-text{
+        margin: 0;
+        width: 290px;
+    }
+
+    .div-contacts{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .header-sections{
+        display: flex;
+        position: fixed;
+        align-items: center;
+        justify-content: start;
+        right: -100%;
+        background-color: #1E1E1E;
+        top: 80px;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        gap: -10px;
+        transition: 0.3s;
+        padding-top: 1rem;
+    }
+
+    .header-sections.ativo{
+        right: 0;
+    }
+    
+    .ul-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 0.5rem;
+    }
+
+    .description-text{
+        color: rgb(207, 169, 98);
+        background-color: transparent;
+        font-size: 21px;
+    }
+
+    .second-description-text{
+        color: rgb(177, 177, 177);
+        background-color: transparent;
+        font-size: 17px;
+    }
+
+    .order{
+        background-color: rgb(207, 169, 98);
+        border-radius: 8px;
+        margin-top: 1.5rem;
+        padding: 0.8rem;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    #menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+
+    .div-header{
+        margin-left: 0px;
+    }
+}
