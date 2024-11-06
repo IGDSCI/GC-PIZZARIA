@@ -9,3 +9,4 @@
   <img src="https://github.com/user-attachments/assets/3befe073-ed4e-4081-9079-9b202f0fe9f6" width="400" height="650"/>
   <img src="https://github.com/IGDSCI/GC-PIZZARIA/assets/114839208/6525b78c-5dda-42ed-b97a-347dc2f1b4a2" width="400" height="650"/>
 </p>
+ 
